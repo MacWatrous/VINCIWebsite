@@ -1,0 +1,313 @@
+<!--
+Theme by: WebThemez.com 
+Note: Please use our back link in your site (webthemez.com)
+-->
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]--> 
+<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]--> 
+<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]--> 
+<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]--> 
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+
+<head>
+<meta charset="utf-8">
+<title>Vinci Fitness</title>
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
+<link href='https://fonts.googleapis.com/css?family=Biryani:400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="dist/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+<link href='https://fonts.googleapis.com/css?family=Orbitron:400,700,500,900' rel='stylesheet' type='text/css'>
+<!--Scripts-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> 
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/global.js"></script>
+</head>
+<div id="splashscreen">
+    <div class="countSplash">
+        <div class="countdown styled"></div>
+    </div>
+<!--    Vinci Logo Goes Below-->
+    <div class="logo2">
+        <img src="images/VinciWebsiteTRANScroppedWhiteText.png"/>
+    </div>
+    <div class="connect">
+        <button class="button" onclick="$.cookie('welcome', true );$('#splashscreen').hide();">Connect</button>
+    </div>
+</div>
+
+<body id="home" onload="$(this).parent().parent().fadeOut(500);
+        $('body').css({'overflow': 'visible'});">  
+    
+<div class="bodySub">
+<section class="main">
+<div id="Content" class="wrapper topSection">
+	<div id="Header">
+	<div class="wrapper">
+        <div class="logo">
+            <h1><img src="images/VinciWebsiteOverCollage.png"/></h1>
+        </div>
+    </div>
+	</div>
+<!--	<h2>I came. I saw. We Conquered.</h2> 	-->
+<div class="countdown styled"></div>
+</div>
+</section>
+<section class="subscribe spacing">
+<div class="container">
+<div id="subscribe">
+	<h3>Subscribe To Get Notified</h3>
+	<form method="POST" action="http://unc.us12.list-manage.com/subscribe/post" name="email">
+        <input type="hidden" name="u" value="8c9ce7c68cf1b0bd1ed5f4915">
+        <input type="hidden" name="id" value="8c9e2e0c89">
+		<p><input name="MERGE0" value="Enter your e-mail" type="email" id="MERGE0" onfocus="inputFocus(this)" onblur="inputBlur(this)" autocapitalize="off" autocorrect="off"/>
+		</p>
+        <p><input type="submit" value="Submit" name="submit" onclick="emailConfirm()"/></p>
+	</form>
+	<div id="socialIcons">
+		<ul> 
+			<li><a href="https://twitter.com/VinciFit" title="Twitter" class="twitterIcon" target="_blank"></a></li>
+			<li><a href="https://www.facebook.com/vincifitness/" title="facebook" class="facebookIcon" target="_blank"></a></li>
+<!--			<li><a href="" title="linkedIn" class="linkedInIcon"></a></li>-->
+<!--			<li><a href="" title="Pintrest" class="pintrestIcon"></a></li>-->
+		</ul>
+	</div>
+	</div>
+</div>
+</section>
+</div>
+<!--
+<div class="arrow">
+    <a href="#section2"><i class="fa fa-chevron-circle-down fa-4x"></i></a>
+</div>
+-->
+<div class="restPage">
+<!--About Section-->
+<section class="features spacing" id="section2">
+<!--     <h2 class="text-center">About VINCI Fitness</h2>-->
+    <div class="boxes">
+		<div id="wrapper">
+            <div class="box">
+                <div class="boxContainer">
+                    <a href="javascript:void(0)" onclick="about1()"><p>What?</p></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxContainer">
+                    <a href="javascript:void(0)" onclick="about2()"><p>Why?</p></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="boxContainer">
+                    <a href="javascript:void(0)" onclick="about3()"><p>Who?</p></a>
+                </div>
+            </div>
+		</div>
+    </div>
+</section>
+<!--Profiles--> 
+<section class="about spacing">
+  <div class="container">
+    <h2 class="aboutText">Meet VINCI</h2>
+      <div class="container2">
+          <div class="profile">
+          <img src="images/Casey_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Casey Turczynski</h4>
+                    <p>Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Mac_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Mac Watrous</h4>
+                    <p>Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Jonathan_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Jonathan Nunez</h4>
+                    <p>Marketing/Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Oscar_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Oscar Brennwald</h4>
+                    <p>Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Nick_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Nick Barnette</h4>
+                    <p>Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Jake_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Jake Sellinger</h4>
+                    <p>Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Rob_Headshot.JPG"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Rob Gilliam</h4>
+                    <p>Marketing/Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Austin%20Hahn.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Austin Hahn</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Avery_Mavoroudis.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Avery Mavoroudis</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+        </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Dante_Hubbert.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Dante Hubbert</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Ellery_Schneider.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Ellery Schneider</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Emily_Brittain.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Emily Brittain</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Jie_He.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Jie He</h4>
+                    <p>Marketing/Development</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Katie_Melin.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Katie Melin</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Kelly_Allen.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Kelly Allen</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Lacey_O'Sullivan.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Lacey O'Sullivan</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="profile">
+          <img src="images/Sam_Shelley.jpg"/>
+          <div id="transition-hover">
+            <div id="transition-hover-content">
+                <div class="profileText">
+                    <h4>Sam Shelley</h4>
+                    <p>Marketing</p>
+                </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>  
+ </div>
+</section> 
+</div>
+<span class="copyRight">© 2015 Vinci Fitness</span>
+</body>
+</html>
